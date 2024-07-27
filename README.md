@@ -63,6 +63,3 @@ The Flask server will run at `http://127.0.0.1:5000`.
 
 - Ensure you have created a `requirements.txt` file that contains all project dependencies.
 - If you are using Flask environment variables (such as `FLASK_APP`), make sure to set them before running the project.
-```
-
-Save the text above to your README.md file.
