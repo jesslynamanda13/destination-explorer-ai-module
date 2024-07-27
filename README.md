@@ -1,4 +1,4 @@
-Create environment and install packages
+**Create environment and install packages**
 1. python -m venv venv
 2. cd /venv/Scripts
 3. .\activate
