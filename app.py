@@ -47,8 +47,8 @@ def haversine(lat1, lon1, lat2, lon2):
     distance = R * c
     return distance
 
-user_lat = -6.175392
-user_lon = 106.827153
+user_lat = -6.311272
+user_lon = 106.793541
 
 def calculate_distance(row):
     return haversine(user_lat, user_lon, row['Latitude'], row['Longitude'])
