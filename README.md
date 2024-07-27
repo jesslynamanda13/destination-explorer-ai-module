@@ -1,71 +1,68 @@
-Berikut adalah instruksi dalam format raw:
+# AI Module Destination Explorer
 
-```markdown
-# My Flask Project
+## Overview
+This is the project to implement the AI Model using pretrained model Word2Vec. We also provide the tutorial for setting up the environment.
 
-## Pendahuluan
-Proyek ini adalah aplikasi web sederhana yang dibangun menggunakan Flask. Instruksi berikut akan membantu Anda untuk mengatur lingkungan pengembangan dan menjalankan proyek ini di mesin lokal Anda.
-
-## Prasyarat
-Pastikan Anda telah menginstal:
+## Requirements
+Please install these:
 - Python 3.x
-- pip (package installer untuk Python)
+- pip (Python package installer)
 
-## Langkah-langkah untuk Menjalankan Proyek
+## Steps to Run the Project
 
-### 1. Membuat Lingkungan Virtual
+### 1. Creating a Virtual Environment
 
-Membuat lingkungan virtual untuk proyek ini agar dependensi terisolasi dari sistem Python utama Anda.
+Create a virtual environment for this project to isolate dependencies from your main Python system.
 
 ```sh
 python -m venv venv
 ```
 
-### 2. Mengaktifkan Lingkungan Virtual
+### 2. Activating the Virtual Environment
 
-Aktifkan lingkungan virtual yang telah dibuat. Langkah ini berbeda tergantung pada sistem operasi yang Anda gunakan.
+Activate the virtual environment that has been created. This step differs depending on the operating system you are using.
 
-#### Untuk Windows:
+#### For Windows:
 ```sh
 cd venv\Scripts
 .\activate
 ```
 
-#### Untuk MacOS/Linux:
+#### For MacOS/Linux:
 ```sh
 source venv/bin/activate
 ```
 
-### 3. Menginstal Paket-paket yang Diperlukan
+### 3. Installing Required Packages
 
-Setelah lingkungan virtual diaktifkan, instal semua paket yang diperlukan menggunakan `requirements.txt`.
+Once the virtual environment is activated, install all required packages using `requirements.txt`.
 
 ```sh
 pip install -r requirements.txt
 ```
 
-### 4. Kembali ke Direktori Proyek
+### 4. Returning to the Project Directory
 
-Pastikan Anda berada di direktori proyek sebelum menjalankan server Flask.
+Ensure you are in the project directory before running the Flask server.
 
 ```sh
-cd ../..  # Ulangi sesuai kebutuhan untuk kembali ke direktori proyek
+cd ../..  # Repeat as necessary to return to the project directory
 ```
 
-### 5. Menjalankan Proyek
+### 5. Running the Project
 
-Jalankan server Flask untuk memulai aplikasi.
+Run the Flask server to start the application.
 
 ```sh
 python -m flask run
 ```
 
-Server Flask akan berjalan di `http://127.0.0.1:5000`.
+The Flask server will run at `http://127.0.0.1:5000`.
 
-## Catatan
+## Notes
 
-- Pastikan Anda telah membuat file `requirements.txt` yang berisi semua dependensi proyek Anda.
-- Jika Anda menggunakan Flask environment variables (seperti `FLASK_APP`), pastikan untuk mengaturnya sebelum menjalankan proyek.
+- Ensure you have created a `requirements.txt` file that contains all project dependencies.
+- If you are using Flask environment variables (such as `FLASK_APP`), make sure to set them before running the project.
 ```
 
-Simpan teks di atas ke dalam file README.md Anda.
+Save the text above to your README.md file.
