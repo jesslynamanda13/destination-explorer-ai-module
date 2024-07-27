@@ -33,20 +33,20 @@ cd venv\Scripts
 source venv/bin/activate
 ```
 
-### 3. Installing Required Packages
-
-Once the virtual environment is activated, install all required packages using `requirements.txt`.
-
-```sh
-pip install -r requirements.txt
-```
-
-### 4. Returning to the Project Directory
+### 3. Returning to the Project Directory
 
 Ensure you are in the project directory before running the Flask server.
 
 ```sh
 cd ../..  # Repeat as necessary to return to the project directory
+```
+
+### 4. Installing Required Packages
+
+Once the virtual environment is activated, install all required packages using `requirements.txt`.
+
+```sh
+pip install -r requirements.txt
 ```
 
 ### 5. Running the Project
